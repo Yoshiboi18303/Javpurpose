@@ -8,7 +8,7 @@
 
 -------------------------------------------
 
-1) We collect: Role List, Permissions, and User IDs.
+1) We collect: Role List, Permissions, Discord User Avatars, and User IDs.
 
 -------------------------------------------
 
