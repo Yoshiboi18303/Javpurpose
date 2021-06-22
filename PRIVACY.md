@@ -20,7 +20,7 @@
 
 -------------------------------------------
 
-4) This data MAY be shared with people on Repl.it (as for the host).
+4) This data MAY be shared with people on Repl.it (as for the code center), and the Heroku Team.
 
 -------------------------------------------
 
