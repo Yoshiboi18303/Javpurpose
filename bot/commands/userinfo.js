@@ -10,6 +10,7 @@ module.exports = {
     const user = message.mentions.users.first() || message.member.user
     const member = guild.members.cache.get(user.id);
     const mentionedMember = message.guild.member(user);
+    const checkStatus = await statusCheck();
 
     function statusCheck() {
     if(mentionedMember.presence.status === 'idle') {
@@ -18,8 +19,6 @@ module.exports = {
       return "False"
     }
   };
-
-  const checkStatus = statusCheck();
 
     const userinfoEmbed = new MessageEmbed()
       .setAuthor(`User info for ${user.username} in ${guild.name}`, user.displayAvatarURL())
