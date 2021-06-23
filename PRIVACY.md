@@ -8,7 +8,7 @@
 
 -------------------------------------------
 
-1) We collect: Role List, Permissions, Discord User Avatars, and User IDs.
+1) We collect: Role List, Permissions, Discord User Avatars, [Server Info](https://github.com/Yoshiboi18303/Javpurpose/blob/main/commands/serverinfo.js), User IDs, etc.
 
 -------------------------------------------
 
@@ -32,4 +32,4 @@
 
 -------------------------------------------
 
-7) Sadly, there's no way for us to remove this data from you.
+7) Sadly, there's no way for us to remove this data from you ourselves.
