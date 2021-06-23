@@ -21,10 +21,10 @@ module.exports = {
          privacyButton.setEmoji('850161209487261716');
 
         let GithubButton = new MessageButton()
-         privacyButton.setStyle('url');
-         privacyButton.setURL('https://github.com/Yoshiboi18303/Javpurpose');
-         privacyButton.setLabel('GitHub');
-         privacyButton.setEmoji('857284369806524466');
+         GithubButton.setStyle('url');
+         GithubButton.setURL('https://github.com/Yoshiboi18303/Javpurpose');
+         GithubButton.setLabel('GitHub');
+         GithubButton.setEmoji('857284369806524466');
 
       let buttonRow = new MessageActionRow()
        .addComponent(inviteButton)
