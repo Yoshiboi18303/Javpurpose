@@ -20,9 +20,16 @@ module.exports = {
          privacyButton.setLabel('Privacy Policy');
          privacyButton.setEmoji('850161209487261716');
 
+        let GithubButton = new MessageButton()
+         privacyButton.setStyle('url');
+         privacyButton.setURL('https://github.com/Yoshiboi18303/Javpurpose');
+         privacyButton.setLabel('GitHub');
+         privacyButton.setEmoji('857284369806524466');
+
       let buttonRow = new MessageActionRow()
        .addComponent(inviteButton)
        .addComponent(privacyButton)
+       .addComponent(GithubButton)
 
     message.reply(stripIndents`You can use this button row for some info!
       --------------------------------------------------------------
