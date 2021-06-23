@@ -7,7 +7,7 @@ If you want to use my Terrible Code for your much better bot, please read over t
 
 ------------------------------------------------------------
 
-This bot has many modules such as... Fun, Music (which is currently [broken](https://discord.com/channels/849201142902292500/849839861346729995/856990963024920606))
+This bot has many modules such as... Fun, Music (which is currently [broken](https://discord.com/channels/849201142902292500/849839861346729995/856990963024920606)), and even more! [Invite](https://discord.com/oauth2/authorize?client_id=848729278069211136&scope=bot&permissions=4667600118) the bot and run js;help to see all the modules!
 
 ------------------------------------------------------------
 
