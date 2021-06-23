@@ -20,17 +20,14 @@ module.exports = {
       return "False"
     }
   };
-  
-    const userStatus = mentionedMember.presence.status;
-
     function status() {
-      if(userStatus === 'online') {
+      if(mentionedMember.presence.status === 'online') {
         return "Online"
-      } else if(userStatus === 'idle') {
+      } else if(mentionedMember.presence.status === 'idle') {
         return "Idle/AFK"
-      } else if(userStatus === 'dnd') {
+      } else if(mentionedMember.presence.status === 'dnd') {
         return "Do Not Disturb"
-      } else if(userStatus === 'invisible') {
+      } else if(mentionedMember.presence.status === 'offline') {
         return "Invisible/Offline"
       }
     };
@@ -71,6 +68,11 @@ module.exports = {
         {
           name: 'Role Count (excluding @ everyone role)',
           value: member.roles.cache.size - 1,
+          inline: true
+        },
+        {
+          name: 'Last Message Sent',
+          value: member.lastMessage - message,
           inline: true
         },
         {
