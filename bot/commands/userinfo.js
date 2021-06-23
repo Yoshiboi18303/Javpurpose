@@ -74,11 +74,6 @@ module.exports = {
           inline: true
         },
         {
-          name: 'Last Message Sent',
-          value: member.lastMessage - message,
-          inline: true
-        },
-        {
           name: "Presence",
           value: mentionedMember.user.presence.activity || "None!",
           inline: true
