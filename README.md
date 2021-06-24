@@ -24,9 +24,13 @@ JSON MODE: **ON**
 [![Bots for Discord](https://botsfordiscord.com/api/bot/848729278069211136/widget)](https://botsfordiscord.com/bots/848729278069211136)
 
 },
-
 "BoatSpace": {
 
 [![BoatSpace Widget](https://boatspace.xyz/api/bots/848729278069211136/widget)](https://boatspace.xyz/bots/848729278069211136)
+
+},
+"Void_Bots": {
+
+![https://voidbots.net/api/embed/848729278069211136?theme=dark](https://voidbots.net/bot/848729278069211136)
 
 }
