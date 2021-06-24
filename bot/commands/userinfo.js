@@ -72,7 +72,7 @@ module.exports = {
         },
         {
           name: 'Last Message Sent',
-          value: member.lastMessage - message,
+          value: `[Last Message](https://discord.com/channels/${message.guild.id}/${message.channel.id}/${mentionedMember.lastMessage.id})` || `No recent message found in <#${message.channel.id}>...`,
           inline: true
         },
         {
