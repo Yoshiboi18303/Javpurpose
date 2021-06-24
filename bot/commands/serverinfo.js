@@ -6,14 +6,14 @@ module.exports = {
   description: "View info of the server you ran this command in!",
   execute(client, message) {
     const { guild } = message;
-   // console.log(guild)
 
     const { name, region, memberCount, verificationLevel, owner, premiumTier, premiumSubscriptionCount, id, afkTimeout } = guild;
-    console.log(guild)
-    const icon = guild.iconURL()
+    
+    const icon = guild.iconURL();
 
       const serverinfoEmbed = new MessageEmbed()
-       serverinfoEmbed.setTitle(`Info for server ${name}`)
+       serverinfoEmbed.setAuthor(`Requested by ${message.author.username}`, message.author.displayAvatarURL())
+       serverinfoEmbed.setTitle(`Info for server ${name}`);
        serverinfoEmbed.setThumbnail(icon)
        serverinfoEmbed.addFields({
          name: 'Region',
