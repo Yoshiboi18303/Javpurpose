@@ -1,0 +1,25 @@
+{
+  "prefix": "tjs;",
+    "ids": {
+    "ownerID": "697414293712273408",
+    "SBL_OWNER_ID": "715491864739840063",
+    "DEL_OWNER_ID": "208105877838888960",
+    "DS_OWNER_ID": "190590364871032834"
+    },
+    "partners": {
+        "SLID": "816037009478647820",
+        "DEL_SID": "568567800910839811",
+        "DS_SID": "694140006138118144"
+    },
+    "links": {
+        "partnersImage": "https://cdn.discordapp.com/attachments/849441681068916786/850076591807135774/Partners.png",
+        "cooldownImage": "https://cdn.discordapp.com/attachments/849441681068916786/850198378206068776/outline_lock_clock_white_48dp.png",
+        "successImage": "https://cdn.discordapp.com/attachments/849441681068916786/850199555253207050/outline_check_circle_outline_white_48dp.png"
+    },
+    "version_control": {
+        "ss_version": "v1.1.5"
+    },
+    "numbers": {
+        "commands": "21"
+    }
+}
