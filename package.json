@@ -9,7 +9,7 @@
   "author": "Yoshiboi18303 <yoshiboi18303.t@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/opus": "^0.5.3",
+    "@discordjs/opus": "^0.8.0",
     "@fearfuldev/fluxpoint": "^1.2.7",
     "@iamtraction/google-translate": "github:k3rn31p4nic/google-translate-api",
     "canvacord": "^5.2.1",
